@@ -1,0 +1,493 @@
+<html>
+<head>
+    <title>Epsilon Hotels - Hotels</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #f5f5f5;
+            font-weight: lighter;
+            color: #333;
+        }
+
+        header {
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 120px;
+            padding-right: 40px;
+            transition: height 0.3s ease, width 0.3s ease;
+
+
+        }
+        .logo img:hover{
+            width:110px;
+            height:130px;
+                }
+
+        .logo h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #000;
+            line-height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 250px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.3s ease;
+            font-weight: lighter;
+            transition: font-size 0.3s ease;
+
+        }
+        h2{
+            font-family: var(--font-bold);
+        }
+      
+        nav ul li a:hover {
+            color: rgb(95, 1, 95);
+            font-size: 22px;
+        }
+
+        .hotelspace {
+            padding: 25px;
+        }
+
+        .hotel {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 9px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .hotel h3 {
+            color: rgb(95, 1, 95);
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        .hotel p {
+            color: #555;
+        }
+
+        .hotel a {
+            text-decoration: none;
+            color: rgb(95, 1, 95);
+            transition: color 0.3s ease;
+            font-weight: normal;
+        }
+
+        .hotel a:hover {
+            color: black;
+        }
+
+        footer {
+            background-color: #2B293C;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .c3 {
+            margin: 0 auto;
+            width: 75%;
+            transition: transform 0.3s ease;
+}
+.c3:hover{
+    transform: scale(1.05);
+}
+
+        .button {   
+            background-color: rgb(95, 1, 95);
+            border: none;
+            color: white;
+            padding: 10px 26px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .c2 {
+            font-weight: normal;
+            color: #555;
+            line-height: 1.5;
+        }
+        ul.a {
+  list-style-type: circle;
+  color: black;
+}
+.c4{
+    text-align:center;
+    display: block;
+            margin: 20px auto; 
+            width: 1000px; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+}
+.c4:hover{
+    transform: scale(1.05);
+}
+.h3{
+    font-weight:bold;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Logo.png">
+            </div>
+            <h1>Epsilon Hotels</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hotelspace">
+        <h2>Our Hotels</h2>
+        <div class="hotel">
+            <h3><a href="https://www.tajhotels.com/en-in/taj/taj-lake-palace-udaipur/">TAJ LAKE PALACE</a></h3>
+            <p>Address: <a href="https://www.google.com/maps/place/Taj+Lake+Palace/@24.575351,73.6778273,17z/data=!3m1!4b1!4m8!3m7!1s0x3967efecf87f0b8b:0x2708953a0e177443!5m2!4m1!1i2!8m2!3d24.575351!4d73.680016?shorturl=1">Pichola, Udaipur, Rajasthan 313001, India</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/tajlakepalace/">@tajlakepalace</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Imagine staying in a majestic abode right in the middle of a lake surrounded by breathtaking views of hills and elaborate palaces. Sounds magical right? Well, that’s just one of the many splendid experiences that the Taj Lake Palace has to offer its guests. This 18th century historical palace, situated in the magnificent City of Udaipur, is undeniably one of the best hotels in India. This white marble marvel is a stunning example of royal grandeur with 65 luxurious rooms and 18 grand suites.</p><p class="c2">The awe-inspiring décor, ornate glasswork and exquisite artworks in the palace give a glimpse of the princely bygone era. Right from the moment you enter this hotel that floats in Lake Pichola, you will be treated like a royal guest. From the grand welcome with a rose petal shower to the city tour in a vintage car, they have everything in place for an ethereal experience.</p><p class="c2">The exclusive resident-only restaurants serve authentic Indian cuisines and signature international dishes that will pamper your tastebuds. The Jiva Spa boat lets you escape into a world of tranquillity with classic therapies and rejuvenating Spa indulgences. Come prepared for a stay straight out of a fairy-tale and take with you a memory to be cherished forever.            </p>
+            <p class="c2"><ul><li class="c2">Prices for Taj Lake Palace, one of the best hotels in India, starts at USD $330++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+          <div class="c4">  <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Lake-Palace-1.jpg" width="1000" height="550">
+          </div>
+
+        </div>
+        <br>
+        <div class="hotel">
+            <h3><a href="https://www.oberoihotels.com/hotels-in-udaipur-udaivilas-resort/">THE OBEROI UDAIVILAS</a></h3>
+            <p>Address: Badi-Gorela-Mulla Talai Rd, Haridas Ji Ki Magri, Pichola, Udaipur, Rajasthan 313001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@theoberoiudaivilas</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A sparkling jewel in the charming city of lakes, Oberoi Udaivilas offers guests a top-notch experience. The Oberoi group is known for its outstanding hospitality with its core philosophy being “the guest is everything”. Every single room of this luxurious hotel reflects elegance and is designed to bestow the utmost comfort. The glittering views of the City Palace and Jag mandir from this lakeside hotel is an absolute treat to the eyes.</p>
+            <p class="c2">The Oberoi Udaivilas has been ranked as one of the best hotels in India in 2019 in the Gallivanter’s Guide. Everything from the intricately carved domes to the Mughal design inspired pool adds to the splendour of this masterpiece. The marvellous dining setup with scrumptious dishes accompanied by live music and traditional performances will grab all your appreciation. They present experiences like Spa, Henna Painting, yoga sessions and more to keep you engaged during the stay. Whether it’s a romantic retreat or a family trip, this is a perfect destination to make your holiday extraordinary.</p>
+            <p class="c2"><ul><li class="c2">Prices for Oberoi Udaivilas, one of the best hotels in India, starts at USD $275++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+        
+                <div class="c4">  <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-1.jpg" width="1000" height="550">
+                </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">THE LEELA PALACE UDAIPUR</a></h3>
+            <p>Address: Lake, Pichola, Udaipur, Rajasthan 313001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@theleelapalaceudaipur</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">The Venice of the east, Udaipur not only has some of the best hotels in India but the world. The Leela Palace Udaipur has been ranked as the world’s best hotel by Travel+Leisure, USA readers survey 2019.  Located by Lake Pichola, each of the 80 luxurious rooms offer panoramic views of mountains and tranquil lakes.</p>
+            <p class="c2">The folk performances, music and the exquisite décor here reflect the true essence of the cultural history of Rajasthan. The fine-dining restaurant Sheesh Mahal exudes a serene ambience under a starry sky and serves flavourful authentic Indian dishes. This hotel is an ideal venue to give wings to your romance as they arrange curated experiences for couples. It includes an exotic bath-set up, spa treatment, destination dining and a romantic boat cruise for a mesmerising experience.</p>
+            <p class="c2"><ul><li class="c2">Prices for The Leela Palace Udaipur, one of the best hotels in India, starts at USD $255++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/48254908.jpg?k=ce6fb7f862332a9baf41424b06770027cdc104b3201dacf9fd20a7bbf6df295c&o=&hp=1" width="1000" height="550">
+            </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">TAJ ARAVALI RESORT & SPA</a></h3>
+            <p>Address: 1, Kheemach Kheda, Village: Bhujra, Tehsil: Girwa Near Kodiyat, Forest Chowki, Udaipur, Rajasthan 313031, India (Location Map)</p>
+            <p>Instagram: <a href="#">@tajaravali</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A luxury haven in the princely state of Mewar, Taj Aravali is unequivocally a destination unto itself. It’s surrounded by the serene Aravali ranges and is located near to the beautiful Fateh Sagar Lake. The contemporary design of the resort is a masterpiece of Rajasthani Architecture with furnishings inspired by Mewar’s equestrian heritage. From the ornate marble flooring to elaborate chandeliers, every part of the resort is designed to perfection. All 176 rooms, suites, and luxury tents are equipped with modern amenities to take care of every need.</p>
+            <p class="c2">You can relish royal Mewar cuisine at the resident-only restaurants that overlook beautiful landscapes. Take a revitalising starlit dip at the pool or visit the spa for a delightful experience. For every reason, it’s an ideal venue to discover the beauty of the city of Udaipur.</p>
+            <p class="c2"><ul><li class="c2">Prices for Taj Aravali Resort and Spa one of the best hotels in India, starts at USD $175++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Aravali-Resort-Spa.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">RAMBAGH PALACE</a></h3>
+            <p>Address: Bhawani Singh Rd, Rambagh, Jaipur, Rajasthan 302005, India (Location Map)</p>
+            <p>Instagram: <a href="#">@rambaghpalace</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">The Pink city of India, Jaipur has an array of architectural wonders that mirrors India’s glorious heritage. The Rambagh palace built-in 1835 is one such marvel that was the residence of former Maharaja of Jaipur. The Taj group has impressively restored it to a luxurious hotel while keeping its essence of royalty intact.</p>
+            <p class="c2">The meticulously designed palace amazes guests with the beauty of its marble latticework, sandstone balustrades and gorgeous cupolas. In the grand royal suites, you get an opportunity to stay in the personal chambers of the Maharaja. Dine like a King at the original palace dining room “Suvarna Mahal” that offers an Indian culinary delight. The specially curated Gazebo and Baradari Experience are stellar setups that will make your stay unforgettable.</p>
+            <p class="c2"><ul><li class="c2">Prices for Rambagh Palace, one of the best hotels in India, starts at USD $245++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Rambagh-Palace-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">OBEROI RAJVILAS</a></h3>
+            <p>Address: Babaji Ka Modh, Goner Rd, Jaipur, Rajasthan 302031, India (Location Map)</p>
+            <p>Instagram: <a href="#">@theoberoirajvilas</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A gem in the vibrant city of Jaipur, Oberoi Rajvilas is unmistakably one of the best hotels in India. It is set in 32 acres of beautifully landscaped gardens which presents an enthralling view. The rooms, luxury tents, and villas are designed by taking inspiration from the traditional architecture of Rajasthan.</p>
+            <p class="c2">Dining is a royal affair here in the elaborate restaurants that serves delectable Indian and international cuisines. It’s an ideal venue to rekindle romance with its special arrangements for a couple spa and Poolside dinner. Watch the sunset at the spectacular Naila Fort with your special one for an experience of a lifetime.</p>
+            <p class="c2"><ul><li class="c2">Prices for Oberoi Rajvilas, one of the best hotels in India, starts at USD $325++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Rajvilas-Jaipur-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">JW MARRIOTT JAIPUR RESORT & SPA</a></h3>
+            <p>Address: Jaipur-Delhi, NH11, Kukas, Rajasthan 302028, India (Location Map)</p>
+            <p>Instagram: <a href="#">@jwmarriottjaipur</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">JW Marriott Jaipur Resort and Spa is a 5-star luxury resort located in the historically significant city of Rajasthan. The resort has been accoladed with the Trip Advisor’s Certificate of Excellence and all the credit to its impeccable service. With 8 categories of accommodation to choose from, it guarantees an excellent stay in Jaipur.</p>
+            <p class="c2">Be it the luxury rooms, suites or the exquisite villas, you will be spellbound by the beauty of the traditional architecture. Designed in Pure white, this charming resort fills the mind with peace and serenity.  With many renowned tourist destinations in Jaipur, it’s an ideal to stop for unrivalled relaxation.</p>
+            <p class="c2"><ul><li class="c2">Prices for JW Mariott Jaipur Resort and Spa, one of the best hotels in India, starts at USD $180++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/JW-Marriott-Resort-Spa-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">THE TAJ MAHAL PALACE</a></h3>
+            <p>Address: Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@thetajmahalmumbai</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">An icon of Mumbai, The Taj Mahal Palace stands majestically opposite to the Gateway of India. This 5-star hotel has 560 rooms including 44 suites which showcase beautiful scenic views of the Arabian Sea. With an intriguing blend of Moorish, Oriental, and Florentine architectural styles, it’s an epitome of luxurious living.</p>
+            <p class="c2">Dining at the Taj is an experience in itself, with an array of renowned restaurants serving cuisine from all around the world. The Jiva spa is a perfect destination to rejuvenate your body and soul. A stay here promises unparalleled luxury and hospitality.</p>
+            <p class="c2"><ul><li class="c2">Prices for The Taj Mahal Palace, one of the best hotels in India, starts at USD $175++ per night. Click <a href="#">here</a> for best available prices.</li></ul></p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Taj-Mahal-Palace-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        <div class="hotel">
+            <h3><a href="#">THE ST. REGIS MUMBAI</a></h3>
+            <p>Address: 462, Senapati Bapat Marg, Lower Parel, Mumbai, Maharashtra 400013, India (Location Map)</p>
+            <p>Instagram: <a href="#">@stregismumbai</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Located in the premier commercial and entertainment hub of Mumbai, St Regis is a luxurious 5-star hotel by the Marriott group. It is situated in Mumbai’s tallest building in Lower Parel and overlooks the Arabian sea. The 395 guest rooms including the ultra-luxurious suites are thoughtfully designed to make you feel at home. It gives you an option to choose your room with a gorgeous city view, skyline or the sea view.</p>
+            <p class="c2">The comfort of the guests is paramount here and they offer on-call butler service and 24-hour room dining service. Fondly referred to as the “Best Address”, this charismatic St. Regis is one of the best hotels in India. You can delve into an array of delectable culinary experiences here that will linger on your tastebuds. Experience the best that Mumbai has to offer with your stay at St. Regis.</p>
+            <p class="c2">Prices for St. Regis, Mumbai, one of the best hotels in India, starts at USD $165++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-St.-Regis-Mumbai-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">SOHO HOUSE MUMBAI</a></h3>
+            <p>Address: 16, Juhu Tara Rd, Juhu Tara, Santacruz West, Mumbai, Maharashtra 400049, India (Location Map)</p>
+            <p>Instagram: <a href="#">@sohohousemumbai</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Discover the city of dreams Mumbai in superior luxury at the SOHO House. With the views of the Arabian sea on one side and the glamorous city on the other, the hotel showcases the true essence of Mumbai. The sunset views from the rooftop pool in this multi-storey building is a fascinating experience. Even the in-house gym offers splendid vistas of the sea which is revelled by the guests.</p>
+            <p class="c2">The exceptional bedrooms with vintage furniture exude retro vibes. The two Playrooms feature Indian design and boast a fabulously decorated spacious living area. It’s classic Italian restaurant Cecconi’s is a popular hotspot of foodies in Mumbai and is a favourite amongst guests. With the splendid décor and unmatched service, this is one of the best hotels in India.</p>
+            <p class="c2">Prices for Soho House, Mumbai, one of the best hotels in India, starts at USD $175++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Soho-House-Mumbai-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">THE BEST HOTELS IN INDIA – NORTH</a></h3>
+            <p>Address: Gram Panchayat, VPO Bisalpur, Tehsil Bali, Jawai Bandh, Rajasthan 306401, India (Location Map)</p>
+            <p>Instagram: <a href="#">@thesujanlife</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Set in the exceptional wilderness in Rajasthan, Sujan Jawai merges adventure and luxury in the finest possible way. The tented camp has emerged triumphant in its attempt at conservation whilst offering supreme comfort. The 10 luxurious tents are designed to respect your privacy where you can relax and enjoy the incredible landscape.</p>
+            <p class="c2">It promises a thrilling experience with the guided wilderness drives where leopards roam free and coexist with the local community. A walk with the local Rabari tribe is arranged to explore the stunning landscapes, villages, and temples. You can also choose to go for guided hiking and trekking for an exciting experience. Eat like the locals here with dishes made from farm-fresh ingredients in the live kitchen.</p>
+            <p class="c2">Prices for Sujan Jawais Relais Chateaux , one of the best hotels in India, starts at USD $1027++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Sujan-Jawais-Relais-Chateaux-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">AMAN-I-KHAS</a></h3>
+            <p>Address: Sherpur, Khiljipur, Near Ranthambore National Park, Sawai Madhopur, Rajasthan 322001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@aman-i-khas</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A wilderness camp on the fringes of Ranthambore national park in Rajasthan, Aman-i-Khas promises a unique experience for the guests. For all those who desire a quick escape from the bustle of the city, this is the perfect destination. It lies amidst a serene landscape and can be counted as one of the best hotels in India.</p>
+            <p class="c2">They have 10 luxurious tents that are crafted to offer utmost privacy. For dining, the tents are distinct where culinary masterpieces from fresh organic kitchen garden ingredients are served. A separate spa tent and an intimate pool area here will let you discover your inner bliss.</p>
+            <p class="c2">Prices for Aman-i-Khas, one of the best hotels in India, starts at USD $1185++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Aman-i-Kas-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">SUJAN SHER BAGH</a></h3>
+            <p>Address: Sherpur, Khiljipur, Sawai Madhopur, Rajasthan 322001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@thesujanlife</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Sujan Sher Bagh is yet another tented accommodation in Rajasthan that takes you a step closer to nature and wildlife. It is nestled at the fringes of Ranthambore National Park, which is the finest location to spot tigers in India. Experience the majestic wildlife like never before with guided safari tour here.</p>
+            <p class="c2">With more unique experiences like Jungle cooking classes and special spa treatments, this is the perfect place to unwind. The resort has 10 luxurious tents and 2 splendid suites that offer a view of untamed nature.</p>
+            <p class="c2">Prices for Sujan Sher Bagh, one of the best hotels in India, starts at USD $733++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Sujan-Sher-Bagh-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">THE OBEROI AMARVILAS</a></h3>
+            <p>Address: Taj East Gate Rd, Paktola, Tajganj, Agra, Uttar Pradesh 282001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@oberoiamarvilas</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A symbol of eternal love and the pride of India, the Taj Mahal has made the city of Agra a world-renowned destination. The Oberoi Amarvilas is located just 600 meters away from the iconic white marble monument.</p>
+            <p class="c2">The rooms and suites with uninterrupted views of the Taj Mahal are steeped in luxury and wrapped in utmost comfort. The fountains, lawns, reflection pools and pavilions are reminiscent of the excellence of the Mughal Era.</p>
+            <p class="c2">Prices for Oberoi Amarvilas, one of the best hotels in India, starts at USD $385++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Amarvilas-Agra-1.jpg" width="1000" height="550">
+
+        </div>
+        </div>
+        
+        
+        <div class="hotel">
+            <h3><a href="#">WILDFLOWER HALL SHIMLA</a></h3>
+            <p>Address: Charabra, Shimla, Himachal Pradesh 171012, India (Location Map)</p>
+            <p>Instagram: <a href="#">@wildflowerhall</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A trip to the Himalayas must be the highlight of your bucket list of things to do in India. Perched 8,250 feet above sea level, the Wildflower Hall in Shimla will elevate your holiday experience with its splendour.</p>
+            <p class="c2">The resort was the residence of erstwhile commander-in-chief of the British Army and has an impressive ambiance of stately homes. It is surrounded by mountains and lush green views of Shimla valley which you immerse in the beauty of nature.</p>
+            <p class="c2">Prices for Wildflower Hall, one of the best hotels in India, starts at USD $325++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Wilflower-Hall-An-Oberoi-Resort-1.jpg" width="1000" height="550">
+            </div>
+        
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">THE IMPERIAL NEW DELHI</a></h3>
+            <p>Address: Janpath Ln, Janpath, Connaught Place, New Delhi, Delhi 110001, India (Location Map)</p>
+            <p>Instagram: <a href="#">@imperialdelhi</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">Located in the heart of India’s capital, Imperial New Delhi is an award-winning iconic 5-star hotel. The heritage hotel is an ultimate exemplar of Victorian charm and colonial elegance.</p>
+            <p class="c2">Imperial has 9 categories of luxurious rooms and suites that overlook a stunning lush green garden. For single lady travellers, they have a special facility called the Eliza Experience that promises a pleasant stay.</p>
+            <p class="c2">Prices for The Imperial, one of the best hotels in India, starts at USD $146++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Imperial-New-Delhi-1.jpg" width="1000" height="550">
+            </div>
+ 
+        </div>
+        
+        <div class="hotel">
+            <h3><a href="#">UMAID BHAWAN PALACE</a></h3>
+            <p>Address: Circuit House Rd, Cantt Area, Jodhpur, Rajasthan 342006, India (Location Map)</p>
+            <p>Instagram: <a href="#">@umaidbhawanpalace</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">For a quintessential palace experience, you can head straight to the Umaid Bhawan Palace in Jodhpur. In addition to living your dream of staying like a royal, you can stay with the real royals here.</p>
+            <p class="c2">Besides the magnificent hotel by the Taj group, part of the palace is still home to the erstwhile royal Jodhpur family. Built with the same Palm court marble as the Iconic Taj Mahal, this heritage property is spread across 26 acres.</p>
+            <p class="c2">Prices for Umaid Bhawan Palace, one of the best hotels in India, starts at USD $458++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Umaid-Bhawan-Palace-1.jpg" width="1000" height="550">
+            </div>
+        </div>
+
+        
+        <div class="hotel">
+            <h3><a href="#">EVOLVE BACK HAMPI</a></h3>
+            <p>Address: Kamalapura – P.K. Halli Road, Kamalapura, Bellary District, Hosapete, Karnataka 583221, India (Location Map)</p>
+            <p>Instagram: <a href="#">@evolvebackresorts</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">The UNESCO World Heritage site, Hampi lets you step back in time to the awe-inspiring architectural excellence of the 14th century. It was the golden era in the history of Karnataka under the glorious Vijayanagar empire.</p>
+            <p class="c2">Taking inspiration from the bygone era, Evolve Back Hampi is a luxury resort situated just 4km from the historical site. From the stone-paved boulevards and regal chambers, you will get a glimpse of the past in every step here.</p>
+            <p class="c2">Prices for Evolve Back, Hampi, one of the best hotels in India, starts at USD $333++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-1.jpg" width="1000" height="550">
+            </div>
+        </div>
+
+        
+        <div class="hotel">
+            <h3><a href="#">TAJ FALAKNUMA PALACE</a></h3>
+            <p>Address: Engine Bowli, Fatima Nagar, Falaknuma, Hyderabad, Telangana 500053, India (Location Map)</p>
+            <p>Instagram: <a href="#">@tajfalaknuma</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">A gem by the Taj Group, the Taj Falaknuma Palace in Hyderabad redefines royalty and luxury. It’s the erstwhile palace of the Nizam, who was once the richest man in the world.</p>
+            <p class="c2">Just like the royals, guests arrive at the hotel in a horse-drawn carriage and are pampered with excellent hospitality. The spectacular welcome ritual also includes a flower petal shower as you ascend the grand staircase.</p>
+            <p class="c2">Prices for Taj Falaknuma Palace, one of the best hotels in India, starts at USD $385++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/The-Taj-Mahal-Palace-1.jpg" width="1000" height="550">
+            </div>
+        </div>
+
+        
+        <div class="hotel">
+            <h3><a href="#">THE LEELA PALACE CHENNAI</a></h3>
+            <p>Address: Adyar Sea Face, The Leela Palace Road, Sathyadev Ave, MRC Nagar, Chennai, Tamil Nadu 600028, India (Location Map)</p>
+            <p>Instagram: <a href="#">@theleelapalacechennai</a></p>
+            <button class="button">BOOK NOW</button>
+            <br>
+            <p class="c2">The Southern states of India are known for their blend of rich cultural heritage and modern outlook on life. Chennai is one of them, and the luxurious Leela Palace is a perfect example of this fusion.</p>
+            <p class="c2">It is Chennai’s first and only sea-facing palace hotel with state-of-the-art amenities. Inspired by the royal Chettinad palaces, the hotel has been designed brilliantly by world-famous architects.</p>
+            <p class="c2">Prices for The Leela Palace, Chennai, one of the best hotels in India, starts at USD $95++ per night. Click <a href="#">here</a> for best available prices.</p>
+            <div class="c4">
+                <img src="https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Falaknuma-Palace-1.jpg" width="1000" height="550">
+            </div>
+
+        </div>
+ 
+    
+    
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Epsilon Hotels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

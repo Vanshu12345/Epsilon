@@ -1,0 +1,193 @@
+<html>
+<head>
+    <title>Epsilon</title>    
+    <style>
+         body {
+            margin: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #f5f5f5;
+            font-weight: lighter;
+            color: #333;
+        }
+
+        header {
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 120px;
+            padding-right: 40px;
+            transition: height 0.3s ease, width 0.3s ease;
+
+
+        }
+        .logo img:hover{
+            width:110px;
+            height:130px;
+                }
+
+        .logo h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #000;
+            line-height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 250px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.3s ease;
+            font-weight: lighter;
+            transition: font-size 0.3s ease;
+
+        }
+        h2{
+            font-family: var(--font-bold);
+        }
+      
+        nav ul li a:hover {
+            color: rgb(95, 1, 95);
+            font-size: 22px;
+        }
+
+        .image {
+            display: block;
+            margin: 20px auto; 
+            width: 90%; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+
+        .hotel-info {
+            background-color: #fff;
+            padding: 30px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .hotel-info h2 {
+            color: #2B293C;
+            margin-top: 0;
+        }
+
+        .hotel-info p {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .hotel-gallery {
+            flex-wrap: nowrap; 
+            overflow-x: auto; 
+            text-align: center;
+        }
+
+        .hotel-gallery img {
+            width: calc(25% - 10px);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .hotelname {
+            text-align: center;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .hotelname div {
+            margin-top: 10px; 
+        }
+
+        .hotelname div a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .hotelname div a:hover {
+            color: #ff6f61;
+        }
+
+        footer {
+            background-color: #2B293C;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .hotelspace{
+            padding:30px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="Logo.png">
+        </div>
+        <h1>Epsilon Hotels</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="amenities.html">Amenities</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="c1">
+    <div class="blur">
+        <img class="image" src="Hotel.png">
+    </div>
+</div>
+
+<div class="hotel-info">
+    <h2>Epsilon Hotels</h2>
+    <p>Step into a world where every stay is a celebration of India's rich tapestry of culture and tradition. Welcome to Epsilon Hotels, where we curate unforgettable experiences that immerse you in the essence of each city we call home. From the bustling streets of Kolkata to the serene backwaters of Kerala, our hospitality is infused with the warmth and hospitality that defines Indian culture. Indulge in authentic flavors, unwind in luxurious accommodations, and embark on journeys that reveal the soul of India. At Epsilon Hotels, every moment is crafted to delight and inspire, ensuring your stay is not just memorable, but truly magical.</p>
+    <h3>Top Hotels</h3>
+    <div class="hotel-gallery">
+        <a href="https://www.fairmont.com/jaipur/"><img src="https://r1imghtlak.mmtcdn.com/57663784996211e8bfae0adfcdb46c1c.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=webp" alt="Hotel 1"></a>
+        <a href="https://www.sixsenses.com/en/resorts/fort-barwara/"><img src="https://r1imghtlak.mmtcdn.com/19e6ce9a84fb11ec9db20a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;3,0&output-format=webp" alt="Hotel 2"></a>
+        <a href="https://www.marriott.com/en-us/hotels/goiwh-w-goa/overview/"><img src="https://r1imghtlak.mmtcdn.com/92ebc050254711e9b7be0242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;89,0&output-format=webp" alt="Hotel 3"></a>
+        <a href="https://www.hyatt.com/grand-hyatt/en-US/goagh-grand-hyatt-goa"><img src="https://r1imghtlak.mmtcdn.com/8bf8cddc8e4711ea88f50242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,7&output-format=jpg" alt="Hotel 4"></a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Epsilon Hotels. All rights reserved.</p>
+</footer>
+</body>
+</html>
